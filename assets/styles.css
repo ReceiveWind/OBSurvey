@@ -169,11 +169,13 @@ main {
 }
 
 .table-wrap {
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: auto;
   border-radius: 18px;
   border: 1px solid var(--border);
   max-height: 70vh;
-  overflow: auto;
 }
 
 
@@ -187,8 +189,9 @@ main {
 
 #survey-table {
   width: 100%;
+
   border-collapse: collapse;
-  min-width: 680px;
+
 }
 
 

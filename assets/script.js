@@ -1,4 +1,4 @@
-const CSV_FILE = '智能文献矩阵导出.csv';
+const CSV_FILE = '文献矩阵.csv';
 
 const filterInput = document.getElementById('table-filter');
 const table = document.getElementById('survey-table');
