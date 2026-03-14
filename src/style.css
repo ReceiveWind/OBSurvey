@@ -131,10 +131,12 @@ main {
   padding: 3rem 0 4rem;
   display: grid;
   gap: 3rem;
+  justify-items: center;
 }
 
 .section {
-  width: 100%;
+  width: min(100%, 1200px);
+  margin: 0 auto;
   background: var(--surface);
   border-radius: 24px;
   padding: 2.5rem;
@@ -148,9 +150,8 @@ main {
   gap: 1.5rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
-
-  width: min(100%, 1100px);
-  margin: 0 auto;
+  width: min(100%, 1080px);
+  margin-inline: auto;
 }
 
 .section h2 {
@@ -192,9 +193,8 @@ main {
 .column-controls {
   position: relative;
   margin-bottom: 1rem;
-
-  width: min(100%, 1100px);
-  margin: 0 auto;
+  width: min(100%, 1080px);
+  margin-inline: auto;
 }
 
 .column-toggle {
@@ -250,9 +250,8 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-
-  width: min(100%, 1100px);
-  margin: 0 auto;
+  width: min(100%, 1080px);
+  margin-inline: auto;
 }
 
 .pagination {
@@ -299,7 +298,7 @@ main {
 }
 
 .table-wrap {
-  width: min(100%, 1100px);
+  width: min(100%, 1080px);
   margin: 0 auto;
   overflow-x: scroll;
   overflow-y: auto;
@@ -339,7 +338,7 @@ main {
 
 #survey-table {
   width: max-content;
-  min-width: 100%;
+  min-width: 1200px;
   border-collapse: collapse;
 }
 
