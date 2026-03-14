@@ -21,6 +21,7 @@ body {
   font-family: 'Manrope', 'Segoe UI', Tahoma, sans-serif;
   background: radial-gradient(circle at top, #fff7e6 0%, #f6f2ea 45%, #f0e6d6 100%);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 .hero {
@@ -188,10 +189,9 @@ main {
 }
 
 #survey-table {
-  width: 100%;
-
+  width: max-content;
+  min-width: 100%;
   border-collapse: collapse;
-
 }
 
 
