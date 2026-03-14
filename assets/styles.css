@@ -92,9 +92,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  display: flex;
-  gap: 1rem;
-  padding: 1rem 6vw;
+  padding: 1rem 0;
   background: rgba(246, 242, 234, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
@@ -117,18 +115,17 @@ body {
 }
 
 main {
-  padding: 3rem 6vw 4rem;
+  padding: 3rem 0 4rem;
   display: grid;
   gap: 3rem;
 }
 
-.section {  background: var(--surface);
+.section {
+  width: 100%;
+  background: var(--surface);
   border-radius: 24px;
   padding: 2.5rem;
   box-shadow: var(--shadow);
-
-  width: min(100%, 1200px);
-  margin: 0 auto;
 }
 
 .section-header {
@@ -181,6 +178,7 @@ main {
   max-width: 100%;
   overflow-x: scroll;
   overflow-y: auto;
+  scrollbar-gutter: stable both-edges;
   border-radius: 18px;
   border: 1px solid var(--border);
   max-height: 70vh;
@@ -415,4 +413,38 @@ main {
   background: #fde68a;
   padding: 0 2px;
   border-radius: 3px;
+}
+
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tabs-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.table-wrap::-webkit-scrollbar {
+  height: 12px;
+}
+
+.table-wrap::-webkit-scrollbar-track {
+  background: #f3e7d4;
+  border-radius: 999px;
+}
+
+.table-wrap::-webkit-scrollbar-thumb {
+  background: #c9b49a;
+  border-radius: 999px;
+}
+
+.table-wrap {
+  scrollbar-width: thin;
+  scrollbar-color: #c9b49a #f3e7d4;
 }
