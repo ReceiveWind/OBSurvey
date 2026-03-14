@@ -242,6 +242,7 @@ const renderRows = () => {
       }
 
       if (idx === summaryIndex) {
+        td.classList.add('summary-col');
         const wrapper = document.createElement('div');
         wrapper.className = 'summary-cell';
         const summary = document.createElement('div');
@@ -257,7 +258,10 @@ const renderRows = () => {
         }
         td.appendChild(wrapper);
       } else {
-        td.appendChild(createHighlightedNode(value, query));
+        const cellText = document.createElement('div');
+        cellText.className = 'cell-text';
+        cellText.appendChild(createHighlightedNode(value, query));
+        td.appendChild(cellText);
       }
       tr.appendChild(td);
     });
