@@ -89,9 +89,9 @@ body {
 }
 
 .page {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 clamp(16px, 4vw, 48px);
+  padding: 0 clamp(20px, 5vw, 64px);
   width: 100%;
 }
 
@@ -148,6 +148,9 @@ main {
   gap: 1.5rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
+
+  width: min(100%, 1100px);
+  margin: 0 auto;
 }
 
 .section h2 {
@@ -189,6 +192,9 @@ main {
 .column-controls {
   position: relative;
   margin-bottom: 1rem;
+
+  width: min(100%, 1100px);
+  margin: 0 auto;
 }
 
 .column-toggle {
@@ -244,6 +250,9 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 1rem;
+
+  width: min(100%, 1100px);
+  margin: 0 auto;
 }
 
 .pagination {
@@ -290,8 +299,8 @@ main {
 }
 
 .table-wrap {
-  width: 100%;
-  max-width: 100%;
+  width: min(100%, 1100px);
+  margin: 0 auto;
   overflow-x: scroll;
   overflow-y: auto;
   scrollbar-gutter: stable both-edges;
