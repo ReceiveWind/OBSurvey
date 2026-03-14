@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>多模态融合目标检测</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-kicker">OBSurvey</div>
+        <h1>多模态融合目标检测</h1>
+        <p class="hero-subtitle">面向多模态融合目标检测的文献综述</p>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="Primary">
+      <a href="#info">Info</a>
+      <a href="#zotero">Zotero</a>
+    </nav>
+
+    <main>
+      <section id="info" class="section">
+        <div class="section-header">
+          <div>
+            <h2>Info</h2>
+            <p class="muted">使用搜索框实时筛选表格内容。</p>
+          </div>
+          <label class="search">
+            <span class="search-label">筛选</span>
+            <input id="table-filter" type="search" placeholder="输入关键词..." aria-label="筛选表格" />
+          </label>
+        </div>
+
+        <div class="column-controls">
+          <button id="toggle-columns" type="button" class="column-toggle">列显示</button>
+          <div id="column-panel" class="column-panel is-hidden" aria-label="列显示选项"></div>
+        </div>
+        <div class="table-controls">
+          <div class="pagination">
+            <button id="prev-page" type="button" class="page-btn">上一页</button>
+            <span id="page-info" class="page-info">第 1 / 1 页</span>
+            <button id="next-page" type="button" class="page-btn">下一页</button>
+          </div>
+          <label class="page-size">
+            <span>每页</span>
+            <select id="page-size">
+              <option value="20">20</option>
+              <option value="50" selected>50</option>
+              <option value="100">100</option>
+            </select>
+            <span>条</span>
+          </label>
+        </div>
+        <div class="table-wrap" role="region" aria-label="Survey table">
+          <div id="table-status" class="table-status" role="status" aria-live="polite">正在加载表格...</div>
+          <table id="survey-table" class="is-hidden">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="zotero" class="section">
+        <div class="section-header">
+          <div>
+            <h2>Zotero</h2>
+            <p class="muted">This section is reserved for your Zotero integration.</p>
+          </div>
+        </div>
+        <div class="placeholder">
+          <p>Zotero content will appear here once you decide the format.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>OBSurvey - maintained on GitHub Pages.</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
