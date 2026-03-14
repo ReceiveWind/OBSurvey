@@ -10,6 +10,7 @@
   --surface-2: #fdf8ef;
   --border: #e5dacb;
   --shadow: 0 18px 40px rgba(17, 24, 39, 0.12);
+  --content-max: 1080px;
 }
 
 * {
@@ -89,9 +90,9 @@ body {
 }
 
 .page {
-  max-width: 1200px;
+  max-width: var(--content-max);
   margin: 0 auto;
-  padding: 0 clamp(20px, 5vw, 64px);
+  padding: 0 clamp(16px, 4vw, 48px);
   width: 100%;
 }
 
@@ -129,14 +130,14 @@ body {
 
 main {
   padding: 3rem 0 4rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
-  justify-items: center;
+  align-items: center;
 }
 
 .section {
-  width: min(100%, 1200px);
-  margin: 0 auto;
+  width: 100%;
   background: var(--surface);
   border-radius: 24px;
   padding: 2.5rem;
@@ -150,8 +151,7 @@ main {
   gap: 1.5rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
-  width: min(100%, 1080px);
-  margin-inline: auto;
+  width: 100%;
 }
 
 .section h2 {
@@ -193,8 +193,7 @@ main {
 .column-controls {
   position: relative;
   margin-bottom: 1rem;
-  width: min(100%, 1080px);
-  margin-inline: auto;
+  width: 100%;
 }
 
 .column-toggle {
@@ -250,8 +249,7 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-  width: min(100%, 1080px);
-  margin-inline: auto;
+  width: 100%;
 }
 
 .pagination {
@@ -298,8 +296,7 @@ main {
 }
 
 .table-wrap {
-  width: min(100%, 1080px);
-  margin: 0 auto;
+  width: 100%;
   overflow-x: scroll;
   overflow-y: auto;
   scrollbar-gutter: stable both-edges;
