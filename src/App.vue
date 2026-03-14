@@ -2,9 +2,7 @@
   <div>
     <header class="hero">
       <div class="hero-content">
-        <div class="hero-kicker">OBSurvey</div>
-        <h1>多模态融合目标检测</h1>
-        <p class="hero-subtitle">面向多模态融合目标检测的文献综述</p>
+        <h1>Multimodal Fusion Object Detection: A Comprehensive Survey</h1>
       </div>
     </header>
 
