@@ -2,7 +2,10 @@
   <div>
     <header class="hero">
       <div class="hero-content">
-        <h1>Multimodal Fusion Object Detection: A Comprehensive Survey</h1>
+        <h1 class="hero-title">
+          <span>Multimodal Fusion Object Detection:</span>
+          <span>A Comprehensive Survey</span>
+        </h1>
       </div>
     </header>
 
