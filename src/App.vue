@@ -139,11 +139,14 @@
         <div class="section-header">
           <div>
             <h2>Zotero</h2>
-            <p class="muted">This section is reserved for your Zotero integration.</p>
           </div>
         </div>
         <div class="placeholder">
-          <p>Zotero content will appear here once you decide the format.</p>
+          <a href="https://drive.google.com/file/d/1yQXcPGsClRtgFC6Bs_k96rCGWmzOUj0G/view?usp=sharing" target="_blank">
+  目标感知zotero文献共享 All File Download (6.5G)
+</a>
+        <p>链接失效可联系913212723@qq.com</p>
+
         </div>
       </section>
     </main>
