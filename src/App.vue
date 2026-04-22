@@ -142,8 +142,9 @@
           </div>
         </div>
         <div class="placeholder">
+          <p>目标感知zotero文献共享，包含所有目标检测相关文献的zotero 题录信息、pdf文件等，共1000余篇，可以通过zotero rdf一键导入到zotero中，包含打好的标签及注释</p>
           <a href="https://drive.google.com/file/d/1yQXcPGsClRtgFC6Bs_k96rCGWmzOUj0G/view?usp=sharing" target="_blank">
-  目标感知zotero文献共享 All File Download (6.5G)
+   All File Download (6.5G)
 </a>
         <p>链接失效可联系913212723@qq.com</p>
 
